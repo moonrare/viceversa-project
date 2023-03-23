@@ -18,4 +18,5 @@ from django.urls import path
 from . import wiews
 urlpatterns = [
     path('', wiews.home),
+    path('reversed/',wiews.reverse, name='reverse'),
 ]
